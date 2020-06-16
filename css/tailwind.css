@@ -1,0 +1,134 @@
+@tailwind base;
+
+@tailwind components;
+
+.card_standar {
+
+   @apply rounded-lg;
+   @apply shadow-lg;
+   @apply pb-3;
+    
+}
+
+.title_card_standar {
+    @apply font-bold;
+    @apply mt-2;
+    @apply mx-3;
+}
+
+.content_card_standar {
+    @apply mt-2;
+    @apply mx-3;
+    @apply text-gray-600;
+    @apply leading-tight;
+
+}
+
+.navbar_sm {
+    @apply flex;
+    @apply justify-around;
+    @apply fixed;
+    @apply bottom-0;
+    @apply w-full;
+    @apply bg-white;
+    @apply border-t-2;
+    @apply border-gray-200;
+    @apply px-20; 
+    @apply pt-4; 
+    @apply pb-3;
+}
+
+.card_gray_sm {
+    @apply bg-gray-100;
+    @apply pb-12;
+    @apply pr-5;
+}
+
+.card_white_sm {
+    @apply text-black;
+    @apply px-6;
+    @apply pt-10;
+    @apply pb-12;
+}
+
+.card_black_sm {
+    @apply bg-black;
+    @apply text-white;
+    @apply mt-12;
+    @apply px-6;
+    @apply py-10;
+}
+
+.card_father_black {
+    @apply mt-4; 
+}
+
+.card_basic_sm {
+    @apply pb-5;
+    @apply mx-5;
+}
+
+.search_sm {
+    @apply sticky;
+    @apply top-0;
+    @apply bg-white;
+    @apply pb-3;
+    @apply mt-1;
+    @apply border-b-2;
+    @apply border-gray-100;
+}
+
+.content_sm {
+    @apply mt-4;
+    @apply mx-6;
+    @apply mb-12;
+}
+
+.footer_sm {
+    @apply bg-gray-100;
+    @apply border-t-2;
+    @apply border-gray-300;
+    @apply text-gray-800;
+}
+@tailwind utilities;
+
+.gradient-text {
+    background-image: linear-gradient(to right, #550a30, #9b0459, #f56dac);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.btn_gradient {
+    background-image : linear-gradient(-90deg, rgba(230, 52, 76, 0.801), rgb(212, 3, 83));
+  }
+
+/* change size font placeholder input */
+input,
+input::-webkit-input-placeholder {
+    font-size: 17px;
+    line-height: 3;
+}
+
+input::-webkit-input-placeholder {
+    color: gray;
+}
+
+.for_me:focus {
+    outline: none;
+}
+
+.for_me::-webkit-input-placeholder {
+    color: gray;
+    font-size: small;
+}
+
+
+/* movimiento horizontal targeta css */
+.snap_card {
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {display: none;}

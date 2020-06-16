@@ -1,0 +1,17 @@
+ {
+  "name": "page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.0",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
