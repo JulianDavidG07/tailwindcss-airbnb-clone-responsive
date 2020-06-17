@@ -6,4 +6,4 @@ Responsive modeling practice, made in TailwindCSS; cloning site of https://www.a
 
 # Tools
 
-TailwindCSS: https://www.airbnb.com.co/
+TailwindCSS: https://tailwindcss.com/
