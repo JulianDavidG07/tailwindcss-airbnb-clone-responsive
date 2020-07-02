@@ -24,7 +24,8 @@ Open the file index.html that is the one in the path public/index.html in your b
 
 ### Note:
 ```
-IMPORTANT: If you make a CSS style change remember to run "npm build" so the changes are compiled; and reload your page to see your changes;
+IMPORTANT: If you make a CSS style change remember to run "npm build" so the changes are compiled; 
+and reload your page to see your changes;
 If you don't do this you won't see the changes in your styles.
 ```
 Responsive modeling practice, made in TailwindCSS; cloning site of https://www.airbnb.com.co/
