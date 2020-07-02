@@ -1,6 +1,6 @@
-# tailwindcss-airbnb-clone-responsive
+# Tailwindcss airbnb clone responsive
 ## Link Project: https://tailwindcss-airbnb-clone-responsive.juliandavidg07.vercel.app/
-# The clone is only visual and has no functionality; it is just a copy of their CSS styles  --- 100% Responsive ---
+## The clone is only visual and has no functionality; it is just a copy of their CSS styles  --- 100% Responsive ---
 
 
 ## 1. Use Project
